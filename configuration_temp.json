@@ -1,0 +1,64 @@
+{
+  "InputXtl": {
+    "File0": {
+      "FileName": "Crystal.xtl"
+    }
+  },
+  "EmitterElement": "H",
+  "ClusterSize": 10,
+  "DirectionZ": [
+    0,
+    0,
+    1
+  ],
+  "DirectionY": [
+    0,
+    1,
+    0
+  ],
+  "InputCluster": {
+    "File0": {
+      "FileName": "Cluster_00.xyz"
+    }
+  },
+  "InputHologram": {
+    "File0": {
+      "FileName": "Hologram11000.csv",
+      "Energy": 10000
+    }
+  },
+  "StartTheta": 0,
+  "EndTheta": 180,
+  "StepTheta": 1,
+  "StartPhi": 0,
+  "EndPhi": 360,
+  "StepPhi": 1,
+  "Mode": "Normal",
+  "PhaseShift": 0,
+  "InputAtomicImage": {
+    "FileNameReal": "AtomicImage.itx",
+    "FileNameImaginal": "AtomicImageHImaginary.itx"
+  },
+  "MinX": 0,
+  "MaxX": 0,
+  "StepX": 0.1,
+  "MinY": 0,
+  "MaxY": 0,
+  "StepY": 0.1,
+  "MinZ": -10,
+  "MaxZ": 10,
+  "StepZ": 0.1,
+  "MaskCenterX": 3.65,
+  "MaskCenterY": 0,
+  "MaskCenterZ": 0,
+  "MaskRadiusX": 1,
+  "MaskRadiusY": 1,
+  "MaskRadiusZ": 1,
+  "DatabaseDirectory": "./XFHAnalysis/",
+  "ScatteringFactor": "DataBaseX-rayScattering.csv",
+  "AnomalousScatteringFactor": "",
+  "DebyeWallerFactor": "",
+  "InputDirectory": "./Input/",
+  "OutputDirectory": "./Output/",
+  "LogDirectory": "./"
+}
